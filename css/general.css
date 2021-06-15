@@ -1,0 +1,44 @@
+/* General style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(111, 134, 252);
+  background: radial-gradient(
+    circle,
+    rgb(237, 237, 237) 0%,
+    rgb(169, 183, 253) 100%
+  );
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgb(25, 52, 185);
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.first {
+  display: flex;
+  gap: 1em;
+}
+
+div.first > * {
+  width: 100%;
+}

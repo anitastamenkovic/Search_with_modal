@@ -1,0 +1,41 @@
+/* Label, input, button */
+
+label {
+  display: block;
+  padding: 0.5em;
+  color: rgb(25, 52, 185);
+  font-size: 1.4rem;
+}
+
+.second label {
+  text-align: start;
+  padding-left: 0;
+}
+
+input,
+button {
+  outline: none;
+  padding: 0.5em;
+  color: rgb(25, 52, 185);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  color: rgb(39, 39, 39);
+}
+
+input[type='submit'] {
+  margin-top: 1.2em;
+  width: 30%;
+  background-color: rgb(65, 96, 252);
+  color: rgb(237, 237, 237);
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: rgb(25, 52, 185);
+}

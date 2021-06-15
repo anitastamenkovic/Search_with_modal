@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="order" class="container">
+      <form action="">
+        <label for="capacity">Enter truck capacity</label>
+        <input
+          type="number"
+          name="capacity"
+          id="capacity"
+          class="first"
+          placeholder="Enter truck capacity"
+        />
+
+        <input type="submit" value="CHECK" />
+      </form>
+    </div>
+    </div>
+
+    
+
+    <div id="check" class="container">
+      <form action="">
+        <div>
+          <label for="name">What are you looking for?</label>
+          <input
+            type="text"
+            name="name"
+            id="article"
+            placeholder="Enter item"
+          />
+        </div>
+
+        <div class="first">
+          <div class="second">
+            <label for="price1">Min price</label>
+            <input
+              type="number"
+              name="price1"
+              id="price1"
+              placeholder="Enter min price"
+            />
+          </div>
+
+          <div class="second">
+            <label for="price2">Max price </label>
+            <input
+              type="number"
+              name="price2"
+              id="price2"
+              placeholder="Enter max price"
+            />
+          </div>
+        </div>
+
+        <input type="submit" value="SEARCH" />
+      </form>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <button id="close-modal" class="close-modal">&times</button>
+        <div id="print"></div>
+      </div>
+
+    <div id="overlay" class="overlay hidden"></div>
+
+    <script type="module" src="modal.js"></script>
+    
+  </body>
+</html>
